@@ -1,5 +1,6 @@
 <p align="center">
- <img src="https://user-images.githubusercontent.com/98360572/175793026-d27ee45a-b260-400e-9a65-0e5ebf170e86.png" width="50%" height="50%">
+ <img src=
+"https://user-images.githubusercontent.com/98360572/175794730-611a15cd-24d8-467f-b737-85be9f1281ac.png" width="100%" height="50%">
 </p>
 
 # Final Project - 🛒 Online Shoppers Behavior 🛍️
@@ -42,7 +43,7 @@ This dataset contains `12330 entries`, which are divided into `10,422 records in
 `BounceRates` - percentage of visitors who enter the site from that page and then leave ("bounce") without triggering any other requests to the analytics server.<br>
 `ExitRates` - the percentage of visitors to a page on the website from which they exit the website to a different website.<br>
 `PageValues` - the average value for a page that a user visited before landing on the goal page.<br>
-`SpecialDay` - indicates the closeness of the site visiting time to a specific special day (e.g. Mother’s Day, Valentine's Day).<br>
+`SpecialDay`(*) - indicates the closeness of the site visiting time to a specific special day (e.g. Mother’s Day, Valentine's Day).<br>
 `Month` - the month of the visit to the website.<br>
 `OperatingSystems` - the type of operation system used by the visitor.<br>
 `Browser` - the type of browser used by the visitor.<br>
@@ -52,7 +53,7 @@ This dataset contains `12330 entries`, which are divided into `10,422 records in
 `Weekend` - indicating whether the date of the visit is weekend.<br>
 `Revenue` - indicates whether the visitor made a purchase or not.<br>
 
-**NOTE**: The `SpecialDay` feature indicates the closeness of the site visiting time to a specific special day (e.g. Mother’s Day, Valentine's Day) in which the sessions are more likely to be finalized with transaction. The value of this attribute is determined by considering the dynamics of e-commerce such as the duration between the order date and delivery date. For example, for Valentine’s day, this value takes a nonzero value between February 2 and February 12, zero before and after this date unless it is close to another special day, and its maximum value of 1 on February 8.
+**(*) NOTE**: The `SpecialDay` feature indicates the closeness of the site visiting time to a specific special day (e.g. Mother’s Day, Valentine's Day) in which the sessions are more likely to be finalized with transaction. The value of this attribute is determined by considering the dynamics of e-commerce such as the duration between the order date and delivery date. For example, for Valentine’s day, this value takes a nonzero value between February 2 and February 12, zero before and after this date unless it is close to another special day, and its maximum value of 1 on February 8.
 
 # Questions that we hope to answer with the data
 
