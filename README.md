@@ -33,43 +33,37 @@ This dataset contains `12330 entries`, which are divided into `10,422 records in
 
 ## Columns Description
 
-`Administrative` - count of pages visited by the visitor (e.g. user details and account)
-`Administrative_Duration` - total time spent (seconds) in on Administrative type of page
-`Informational` - count of pages visited by the visitor (e.g. about and contact of the website)
-`Informational_Duration` - total time spent (seconds) in on Informational type of page
-`ProductRelated` - count of pages visited by the visitor (e.g. product details)
-`ProductRelated_Duration` - total time spent (seconds) in on ProductRelated type of page
-`BounceRates` - percentage of visitors who enter the site from that page and then leave ("bounce") without triggering any other requests to the analytics server
-`ExitRates` - the percentage of visitors to a page on the website from which they exit the website to a different website
-`PageValues` - the average value for a page that a user visited before landing on the goal page
-`SpecialDay` - indicates the closeness of the site visiting time to a specific special day (e.g. Mother’s Day, Valentine's Day)
-`Month` - the month of the visit to the website
-`OperatingSystems` - the type of operation system used by the visitor
-`Browser` - the type of browser used by the visitor
-`Region` - the geographic region from which the session started
-`TrafficType` - describes how traffic arrived on the website (Direct, Organic, Referral, Social, Email, Display and Paid)
-`VisitorType` - returning or new visitor or other
-`Weekend` - indicating whether the date of the visit is weekend
-`Revenue` - indicates whether the visitor made a purchase or not
+`Administrative` - count of pages visited by the visitor (e.g. user details and account).<br>
+`Administrative_Duration` - total time spent (seconds) in on Administrative type of page.<br>
+`Informational` - count of pages visited by the visitor (e.g. about and contact of the website).<br>
+`Informational_Duration` - total time spent (seconds) in on Informational type of page.<br>
+`ProductRelated` - count of pages visited by the visitor (e.g. product details).<br>
+`ProductRelated_Duration` - total time spent (seconds) in on ProductRelated type of page.<br>
+`BounceRates` - percentage of visitors who enter the site from that page and then leave ("bounce") without triggering any other requests to the analytics server.<br>
+`ExitRates` - the percentage of visitors to a page on the website from which they exit the website to a different website.<br>
+`PageValues` - the average value for a page that a user visited before landing on the goal page.<br>
+`SpecialDay` - indicates the closeness of the site visiting time to a specific special day (e.g. Mother’s Day, Valentine's Day).<br>
+`Month` - the month of the visit to the website.<br>
+`OperatingSystems` - the type of operation system used by the visitor.<br>
+`Browser` - the type of browser used by the visitor.<br>
+`Region` - the geographic region from which the session started.<br>
+`TrafficType` - describes how traffic arrived on the website (Direct, Organic, Referral, Social, Email, Display and Paid).<br>
+`VisitorType` - returning or new visitor or other.<br>
+`Weekend` - indicating whether the date of the visit is weekend.<br>
+`Revenue` - indicates whether the visitor made a purchase or not.<br>
 
 **NOTE**: The `SpecialDay` feature indicates the closeness of the site visiting time to a specific special day (e.g. Mother’s Day, Valentine's Day) in which the sessions are more likely to be finalized with transaction. The value of this attribute is determined by considering the dynamics of e-commerce such as the duration between the order date and delivery date. For example, for Valentine’s day, this value takes a nonzero value between February 2 and February 12, zero before and after this date unless it is close to another special day, and its maximum value of 1 on February 8.
 
 # Questions that we hope to answer with the data
 
-The main objective revolved around the identification of key metrics which contributes the most towards predicting a shopper's behavior and to suggest prioritized critical recommendations and performance improvements on the same. Revenue is the attribute of interest which identifies if a purchase was made or not.
+What are the key metrics which contributes the most towards predicting a shopper's behavior?
 
 What variables are most important to explain Revenued sessions?
-At this stages, we developped three ML models to predict whether a visitor to the e-commerce page will make a purchase or not. Then, this model can help to find the right consumer - who have the intention to purchase - analyze the data of potential consumer in real time and push direct marketing strategies to all those people.
-The conversion rates of new visitors are high compared to those of returning customers.
-It's a good sign that 85% of visitors are returning to site. 15% of visitors are new. We can give offers to lure more new visitors.
-While the number of returning customers to the website is high, the conversion rate is low compared to that of new customers.
-65% of visitors come from browser only 1 and more than 85% of visitors come from browser 1 and 2. We can make website to more appealing, interactive and responsive to these browsers.
-Approx 95% of visitors uses operating system 1, 2, or 3.
-Region 1 accounts for more sales followed by region 3.
-Month May and November have the highest visitors but only November month has more conversion rate.
-Average spends on administrative, informational, and products related pages is more for those who bought something than those who nothing.
-Average Bounce Rate and Exit Rate is lower when a product sales.
-Pages with a high page value have a lower bounce rate. We should be talking with our tech team to find ways to improve the page value of the web pages.
+
+What is the profile of the 'Right Customer' based on the metrics and variables included in the dataset?
+
+Are the conversion rates of new visitors high when compared to those of returning customers?
+
 
 
 
