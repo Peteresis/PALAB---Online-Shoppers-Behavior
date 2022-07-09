@@ -28,6 +28,28 @@
 
 # Presentation Draft
 
-## Original Google Slides file located at: [Analysis of Online Shoppers Behavior](https://docs.google.com/presentation/d/1X9TR8mqswv_vIoxO6fzmb5FBY-egghKX5sBI4fON-dw/edit?usp=sharing)
+### Original Google Slides file located at: [Analysis of Online Shoppers Behavior](https://docs.google.com/presentation/d/1X9TR8mqswv_vIoxO6fzmb5FBY-egghKX5sBI4fON-dw/edit?usp=sharing)
 
-## **Predicting the behavior of online shoppers**
+|   ⚠️ **NOTE: Please click on any image to zoom**     |
+| ----------- |
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/98360572/178123522-e86ddce0-652a-4923-bd10-511c0e6ff6cf.png" width="75%" height="75%">
+</p>
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/98360572/178123570-4862c2ad-1ebf-4d3f-b715-8c290756c28c.png" width="75%" height="75%">
+</p>
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/98360572/178123582-3a37d58d-2985-4f6c-a89a-dda547939f22.png" width="75%" height="75%">
+</p>
+
+
+
+
+
+
+
+
+
