@@ -4,7 +4,6 @@
 
 Online_Shoppers
 -
-Customer_ID INT INDEX
 Administrative INT
 Administrative_Duration FLOAT
 Informational INT
@@ -23,6 +22,7 @@ TrafficType INT
 VisitorType VARCHAR
 Weekend BOOLEAN
 Revenue BOOLEAN
+Visit_ID INT INDEX
 
 
 Operating_System
