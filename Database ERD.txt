@@ -1,0 +1,39 @@
+# Modify this code to update the DB schema diagram.
+# To reset the sample schema, replace everything with
+# two dots ('..' - without quotes).
+
+Online_Shoppers
+-
+Customer_ID INT INDEX
+Administrative INT
+Administrative_Duration FLOAT
+Informational INT
+Informational_Duration FLOAT
+ProductRelated INT
+ProductRelated_Duration FLOAT
+BounceRates FLOAT
+ExitRates FLOAT
+PageValues FLOAT
+SpecialDay FLOAT
+Month VARCHAR
+OperatingSystems INT
+Browser INT
+Region INT
+TrafficType INT
+VisitorType VARCHAR
+Weekend BOOLEAN
+Revenue BOOLEAN
+
+
+Operating_System
+-
+Customer_ID INT FK >- Online_Shoppers.Customer_ID
+OperatingSystems INT
+OperatingSystemName VARCHAR
+
+
+Traffic_Source
+-
+Customer_ID INT FK >- Online_Shoppers.Customer_ID
+TrafficType INT
+TrafficTypeName VARCHAR
