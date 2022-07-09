@@ -27,13 +27,13 @@ Visit_ID INT INDEX
 
 Operating_System
 -
-Customer_ID INT FK >- Online_Shoppers.Customer_ID
+Visit_ID INT FK >- Online_Shoppers.Customer_ID
 OperatingSystems INT
 OperatingSystemName VARCHAR
 
 
 Traffic_Source
 -
-Customer_ID INT FK >- Online_Shoppers.Customer_ID
+Visit_ID INT FK >- Online_Shoppers.Customer_ID
 TrafficType INT
 TrafficTypeName VARCHAR
