@@ -62,10 +62,6 @@
 </p>
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/98360572/178123677-3da29cfc-1e52-4792-bb89-ee0751f57017.png" width="75%" height="75%">
-</p>
-
-<p align="center">
     <img src="https://user-images.githubusercontent.com/98360572/178123695-e0234237-aa75-4099-b25e-988fd6eb0eb6.png" width="75%" height="75%">
 </p>
 
