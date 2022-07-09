@@ -1,8 +1,9 @@
 <p align="center">
- <img src="https://user-images.githubusercontent.com/98360572/175794730-611a15cd-24d8-467f-b737-85be9f1281ac.png" width="100%" height="50%">
+ <img src="https://user-images.githubusercontent.com/98360572/178123334-641833bd-9e9c-4cb3-8399-f5e5b4568b7f.png" width="100%" height="50%">
 </p>
 
-# Final Project - 🛒 Online Shoppers Behavior 🛍️
+
+# Final Project - 🛒 Online Shoppers Behavior - Week 2🛍️
 
 ## Team Members
 
@@ -25,6 +26,8 @@
 </tbody>
 </table>
 
-# Selected topic
+# Presentation Draft
+
+## Original Google Slides file located at: [Analysis of Online Shoppers Behavior](https://docs.google.com/presentation/d/1X9TR8mqswv_vIoxO6fzmb5FBY-egghKX5sBI4fON-dw/edit?usp=sharing)
 
 ## **Predicting the behavior of online shoppers**
