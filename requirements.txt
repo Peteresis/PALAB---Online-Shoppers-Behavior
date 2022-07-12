@@ -1,0 +1,8 @@
+imbalanced_learn==0.9.1
+imblearn==0.0
+matplotlib==3.5.2
+numpy==1.23.1
+pandas==1.4.3
+scikit_learn==1.1.1
+seaborn==0.11.2
+streamlit==1.10.0
