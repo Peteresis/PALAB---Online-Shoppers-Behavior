@@ -350,13 +350,6 @@ elif classifier_name == "AdaBoost Classifier":
     st.subheader("Classification Report")
     st.write(df_classification_report)
 
-    # Plot Feature Importance
-    st.subheader("Feature Importance")
-    fig = plt.figure(figsize=(10,10))
-    sns.barplot(x=model.coef_[0], y=y_pred.columns, orient='h')
-    st.pyplot(fig)
-
-
     # Plot correlation matrix
     st.subheader("Correlation Matrix")
     fig = plt.figure(figsize=(10,10))
