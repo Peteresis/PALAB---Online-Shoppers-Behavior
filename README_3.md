@@ -54,19 +54,20 @@ Our Streamlit App allows you to run six Machine Learning Models on the `online s
 
 Furthermore, each model can be fine-tuned by modifying the main parameters of the model, such as sampling strategy, number of estimators, best split, and others, using the controls on the sidebar.
 
-### Feature Importance
+The App produces several charts that allow the visualization of the results produced by each model for an easier understanding.
+
 <p align="center">
  <img src="https://user-images.githubusercontent.com/98360572/178847433-4b4103e1-0fae-47a2-bce8-ec32d9249100.png" width="50%" height="50%">
 </p>
 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/98360572/178847514-b0e69c46-5723-4c0e-8efd-72240e696e2d.png" width="50%" height="50%">
+</p>
 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/98360572/178847578-98e8e776-568b-4cd5-b648-0c017ccfec9f.png" width="50%" height="50%">
+</p>
 
-Correlation Matrix
-![image](https://user-images.githubusercontent.com/98360572/178847514-b0e69c46-5723-4c0e-8efd-72240e696e2d.png)
-
-
-Confusion Matrix
-![image](https://user-images.githubusercontent.com/98360572/178847578-98e8e776-568b-4cd5-b648-0c017ccfec9f.png)
 
 
 
