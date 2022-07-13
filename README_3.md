@@ -81,7 +81,7 @@ The App produces several charts that allow the visualization of the results prod
 
 # :two: Comparison of the Results of the Models
 
-| Modification made      | Loss and Accurary Obtained |
+| Model Name | Accurary Obtained<br>Using the Streamlit App |
 | -----------   | -----------  |
 | Original Run Algorithm | Loss: 0.5711 Accuracy: 0.7254 |
 | Using TANH activation function | Loss: 0.5668 Accuracy: 0.7249 |
