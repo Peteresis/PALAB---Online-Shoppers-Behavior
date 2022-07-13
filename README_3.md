@@ -44,14 +44,22 @@ Ensemble Models:
 The models listed can be run using the two Jupyter notebooks included in this repository:
 [shoppers_ML_resampling.ipynb](https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/b704d5d281091d6528f9e7964ddcab190bd2a301/shoppers_ML_resampling.ipynb) and [shoppers_ML_ensemble.ipynb](https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/b704d5d281091d6528f9e7964ddcab190bd2a301/shoppers_ML_ensemble.ipynb) 
 
-
-
-### Original Google Slides file located at: [Analysis of Online Shoppers Behavior](https://docs.google.com/presentation/d/1X9TR8mqswv_vIoxO6fzmb5FBY-egghKX5sBI4fON-dw/edit?usp=sharing)
-
-|   ⚠️ **NOTE: Please click on any image to zoom**     |
-| ----------- |
+However, we found a better way to run these models using a Python library called **Streamlit**
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/98360572/178123522-e86ddce0-652a-4923-bd10-511c0e6ff6cf.png" width="75%" height="75%">
+ <img src="https://user-images.githubusercontent.com/98360572/178845353-37f1c5d3-7251-4150-9800-ed03110f02e0.png" width="25%" height="25%">
 </p>
+
+It is possible to create an online app and connect it to the Github repository using Streamlit. The library allows you to add a sidebar that contains the controls for running the app, and the results are displayed immediately on the right pane.
+
+Our Streamlit App allows you to run six Machine Learning Models on the `online shoppers intention.csv` dataset and immediately see the output showing the main metrics of the model such as accuracy score, original dataset shape, resampled dataset shape, classification report, feature importance chart (available for some models only), correlation matrix, and confusion matrix.
+
+Furthermore, each model can be fine-tuned by modifying the main parameters of the model, such as sampling strategy, number of estimators, best split, and others, using the controls on the sidebar.
+
+
+
+
+
+
+
 
