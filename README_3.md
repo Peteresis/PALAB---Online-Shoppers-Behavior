@@ -90,5 +90,12 @@ The App produces several charts that allow the visualization of the results prod
 | **Random Forest Classifier** | **0.8612784437134429** |
 | Easy Ensemble AdaBoost Classifier | 0.8487314689397873 |
 
+# :three: Conclusion
 
+
+
+---
+# :four: References
+
+Streamlit: A faster way to build and share data apps, https://streamlit.io/
 
