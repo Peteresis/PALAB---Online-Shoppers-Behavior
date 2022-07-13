@@ -83,12 +83,12 @@ The App produces several charts that allow the visualization of the results prod
 
 | Model Name | Max Accurary Obtained<br>Using the Streamlit App |
 | -----------   | -----------  |
-| Naive Random Oversampling |  |
-| SMOTE Oversampling |  |
-| Logistic Regression |  |
-| SMOTEENN |  |
-| Balanced Random Forest Classifier |  |
-| Easy Ensemble AdaBoost Classifier |  |
+| Naive Random Oversampling | 0.8182538793439996 |
+| SMOTE Oversampling | 0.8086832465976176 |
+| Undersampling | 0.5409592868321265 |
+| SMOTEENN | 0.8333197543563056 |
+| **Random Forest Classifier** | **0.8612784437134429** |
+| Easy Ensemble AdaBoost Classifier | 0.8487314689397873 |
 
 
 
