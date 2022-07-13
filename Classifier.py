@@ -1,6 +1,4 @@
 # NOTE: To run this file, you need to type this command on the terminal: 'streamlit run Classifier.py'
-# Original code from: https://github.com/Peteresis/streamlit-demo
-
 
 import streamlit as st
 import numpy as np
@@ -26,6 +24,9 @@ classifier_name = st.sidebar.selectbox("Select Classifier", ("Naive Random Overs
 
 
 data = pd.read_csv('online_shoppers_intention.csv')
+# url_name = 'https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/main/Resources/online_shoppers_intention.csv'
+# data = pd.read_csv(url_name)
+
 dataset_name = "online_shoppers_intention"
 
 # Changed Revenue to dtype str
@@ -143,6 +144,13 @@ elif classifier_name == "SMOTE Oversampler":
     st.subheader("Classification Report")
     st.write(df_classification_report)
 
+    # Plot Feature Importance
+    st.subheader("Feature Importance")
+    fig = plt.figure(figsize=(10,10))
+    sns.barplot(x=model.coef_[0], y=X_resampled.columns, orient='h')
+    st.pyplot(fig)
+
+
     # Plot correlation matrix
     st.subheader("Correlation Matrix")
     fig = plt.figure(figsize=(10,10))
@@ -190,6 +198,12 @@ elif classifier_name == "Undersampling":
     st.subheader("Classification Report")
     st.write(df_classification_report)
 
+    # Plot Feature Importance
+    st.subheader("Feature Importance")
+    fig = plt.figure(figsize=(10,10))
+    sns.barplot(x=model.coef_[0], y=X_resampled.columns, orient='h')
+    st.pyplot(fig)
+    
     # Plot correlation matrix
     st.subheader("Correlation Matrix")
     fig = plt.figure(figsize=(10,10))
@@ -237,6 +251,12 @@ elif classifier_name == "SMOTEENN":
     st.subheader("Classification Report")
     st.write(df_classification_report)
 
+    # Plot Feature Importance
+    st.subheader("Feature Importance")
+    fig = plt.figure(figsize=(10,10))
+    sns.barplot(x=model.coef_[0], y=X_resampled.columns, orient='h')
+    st.pyplot(fig)
+    
     # Plot correlation matrix
     st.subheader("Correlation Matrix")
     fig = plt.figure(figsize=(10,10))
@@ -279,6 +299,15 @@ elif classifier_name == "Random Forest Classifier":
     st.subheader("Classification Report")
     st.write(df_classification_report)
 
+    # Plot Feature Importance
+    st.subheader("Feature Importance")
+    fig = plt.figure(figsize=(10,10))
+    plt.barh(X_train.columns, model.feature_importances_)
+    plt.xlabel('Feature Importance')
+    plt.ylabel('Features')
+    plt.title('Feature Importance')
+    st.pyplot(fig)
+
     # Plot correlation matrix
     st.subheader("Correlation Matrix")
     fig = plt.figure(figsize=(10,10))
@@ -320,6 +349,12 @@ elif classifier_name == "AdaBoost Classifier":
     df_classification_report = df_classification_report.sort_values(by=['f1-score'], ascending=False)
     st.subheader("Classification Report")
     st.write(df_classification_report)
+
+    # Plot Feature Importance
+    st.subheader("Feature Importance")
+    fig = plt.figure(figsize=(10,10))
+    sns.barplot(x=model.coef_[0], y=X_resampled.columns, orient='h')
+    st.pyplot(fig)
 
     # Plot correlation matrix
     st.subheader("Correlation Matrix")
