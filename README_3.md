@@ -47,6 +47,7 @@ However, we found a better way to run these models using a Python library called
 The link to the App and the Python file that is the 'brain' of the App are:
 
 [Streamlit App](https://peteresis-palab---online-shoppers-behavior-classifier-d9vdom.streamlitapp.com/)
+
 [Python Code](https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/4b90fab3247f9a3d1a73165677df6d63292cd6c6/Classifier.py)
 
 <p align="center">
