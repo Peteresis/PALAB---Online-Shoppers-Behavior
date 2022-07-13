@@ -51,9 +51,6 @@ The link to the App and the Python file that is the 'brain' of the App are:
 | ----------- | ----------- |
 | [Streamlit App](https://peteresis-palab---online-shoppers-behavior-classifier-d9vdom.streamlitapp.com/) |[Python Code](https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/4b90fab3247f9a3d1a73165677df6d63292cd6c6/Classifier.py) |
 
-
-
-
 <p align="center">
  <img src="https://user-images.githubusercontent.com/98360572/178845353-37f1c5d3-7251-4150-9800-ed03110f02e0.png" width="25%" height="25%">
 </p>
@@ -63,6 +60,17 @@ It is possible to create an online app and connect it to the Github repository u
 Our Streamlit App allows you to run six Machine Learning Models on the `online shoppers intention.csv` dataset and immediately see the output showing the main metrics of the model such as accuracy score, original dataset shape, resampled dataset shape, classification report, feature importance chart (available for some models only), correlation matrix, and confusion matrix.
 
 Furthermore, each model can be fine-tuned by modifying the main parameters of the model, such as sampling strategy, number of estimators, best split, and others, using the controls on the sidebar.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/98360572/178850872-256fd225-a0d0-4000-8ea5-58a7d67a82ee.png" width="50%" height="50%">
+</p>
+
+
+
+
+
+
+
 
 The App produces several charts that allow the visualization of the results produced by each model for an easier understanding.
 
