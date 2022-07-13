@@ -42,7 +42,11 @@ Ensemble Models:
 The models listed can be run using the two Jupyter notebooks included in this repository:
 [shoppers_ML_resampling.ipynb](https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/b704d5d281091d6528f9e7964ddcab190bd2a301/shoppers_ML_resampling.ipynb) and [shoppers_ML_ensemble.ipynb](https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/b704d5d281091d6528f9e7964ddcab190bd2a301/shoppers_ML_ensemble.ipynb) 
 
-However, we found a better way to run these models using a Python library called **Streamlit**
+However, we found a better way to run these models using a Python library called **Streamlit**.
+
+The link to the App and the Python file that is the 'brain' of the App are:
+
+[Streamlit App]
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/98360572/178845353-37f1c5d3-7251-4150-9800-ed03110f02e0.png" width="25%" height="25%">
