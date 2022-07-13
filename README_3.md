@@ -32,12 +32,12 @@ Our dataset `online_shoppers_intention.csv' can be analyzed using 6 different mo
 Resampling Models:
 * Naive Random Oversampling
 * SMOTE Oversampling
-* Logistic Regression
+* Undersampling
 * SMOTEENN
 
 Ensemble Models:
-* Balanced Random Forest Classifier
-* Easy Ensemble AdaBoost Classifier
+* Random Forest Classifier
+* AdaBoost Classifier
 
 The models listed can be run using the two Jupyter notebooks included in this repository:
 [shoppers_ML_resampling.ipynb](https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/b704d5d281091d6528f9e7964ddcab190bd2a301/shoppers_ML_resampling.ipynb) and [shoppers_ML_ensemble.ipynb](https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/b704d5d281091d6528f9e7964ddcab190bd2a301/shoppers_ML_ensemble.ipynb) 
@@ -88,7 +88,7 @@ The App produces several charts that allow the visualization of the results prod
 | Undersampling | 0.5409592868321265 |
 | SMOTEENN | 0.8333197543563056 |
 | **Random Forest Classifier** | **0.8612784437134429** |
-| Easy Ensemble AdaBoost Classifier | 0.8487314689397873 |
+| AdaBoost Classifier | 0.8487314689397873 |
 
 # :three: Conclusion
 
