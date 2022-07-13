@@ -25,7 +25,7 @@
 </tbody>
 </table>
 
-# Machine Learning Models
+# :one: Machine Learning Models
 
 Our dataset `online_shoppers_intention.csv' can be analyzed using 6 different models that were introduced during the second week of the final project.  The mentioned models are:
 
@@ -65,13 +65,6 @@ Furthermore, each model can be fine-tuned by modifying the main parameters of th
  <img src="https://user-images.githubusercontent.com/98360572/178850872-256fd225-a0d0-4000-8ea5-58a7d67a82ee.png" width="50%" height="50%">
 </p>
 
-
-
-
-
-
-
-
 The App produces several charts that allow the visualization of the results produced by each model for an easier understanding.
 
 <p align="center">
@@ -86,7 +79,11 @@ The App produces several charts that allow the visualization of the results prod
  <img src="https://user-images.githubusercontent.com/98360572/178847578-98e8e776-568b-4cd5-b648-0c017ccfec9f.png" width="50%" height="50%">
 </p>
 
+# :two: Comparison of the Results of the Models
 
-
+| Modification made      | Loss and Accurary Obtained |
+| -----------   | -----------  |
+| Original Run Algorithm | Loss: 0.5711 Accuracy: 0.7254 |
+| Using TANH activation function | Loss: 0.5668 Accuracy: 0.7249 |
 
 
