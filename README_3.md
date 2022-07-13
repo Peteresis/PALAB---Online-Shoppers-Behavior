@@ -92,6 +92,9 @@ The App produces several charts that allow the visualization of the results prod
 
 # :three: Conclusion
 
+Based on the comparison table above, the best accuracy is obtained with the **Random Forest Classifier** model, which gives an accuracy of 86%.
+
+In order to improve the results, we believe that the variables with low correlation on the output variable `Revenue` have to be dropped.  Once the number of variables is reduced, it is to be expected that the models produce an accuracy closer to 90% or more.
 
 
 ---
