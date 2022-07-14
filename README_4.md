@@ -1,6 +1,7 @@
 <p align="center">
- <img src="https://user-images.githubusercontent.com/98360572/175794730-611a15cd-24d8-467f-b737-85be9f1281ac.png" width="100%" height="50%">
+ <img src="https://user-images.githubusercontent.com/98360572/179120313-518b2e47-7ab9-494f-acfc-af7fe57c294c.png" width="100%" height="50%">
 </p>
+
 
 # Final Project - 🛒 Online Shoppers Behavior 🛍️
 
