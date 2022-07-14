@@ -1,4 +1,4 @@
-Questions that we hope to answer with the data
+# Questions that we hope to answer with the data
 What are the key metrics which contributes the most towards predicting a shopper's behavior?
 
 What variables are most important to explain Revenued sessions?
