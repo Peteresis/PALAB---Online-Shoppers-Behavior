@@ -28,6 +28,19 @@
 # Selected topic
 
 
+# :two: Comparison of the Results of the Models
+
+| Model Name | Max Accurary Obtained<br>Using the Streamlit App |
+| -----------   | -----------  |
+| Naive Random Oversampling | 0.8182538793439996 |
+| SMOTE Oversampling | 0.8086832465976176 |
+| Undersampling | 0.5409592868321265 |
+| SMOTEENN | 0.8333197543563056 |
+| **Random Forest Classifier** | **0.8612784437134429** |
+| AdaBoost Classifier | 0.8487314689397873 |
+
+
+
 # Questions that we hope to answer with the data
 What are the key metrics which contributes the most towards predicting a shopper's behavior?
 
