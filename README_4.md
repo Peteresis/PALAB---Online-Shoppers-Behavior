@@ -28,7 +28,7 @@
 # Selected topic
 
 
-# :two: Comparison of the Results of the Models
+# :four: Comparison of the Results of the Models
 
 | Model Name | Max Accurary Obtained<br>Using the Streamlit App |
 | -----------   | -----------  |
