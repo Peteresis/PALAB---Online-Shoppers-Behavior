@@ -61,4 +61,5 @@ What is the profile of the 'Right Customer' based on the metrics and variables i
 
 Are the conversion rates of new visitors high when compared to those of returning customers?
 - In the conversion rate it is the percentage of users who take the desrired action. In this example, the new visitors are compared to returning visitors who buy something on the website. 
+- 
  <img width="500" alt="image" src="https://user-images.githubusercontent.com/92067596/179363961-ab5cc804-1808-4d1d-9007-9cbfed0053ad.png">
