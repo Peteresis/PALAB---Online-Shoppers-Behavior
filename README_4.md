@@ -29,6 +29,12 @@
 # Selected topic
 
 
+# Database Schema
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/98360572/179361359-385f14e0-5f53-4dfa-8b47-5b12a07aac1c.png" width="50%" height="50%">
+</p>
+
 # :four: Comparison of the Results of the Models
 
 | Model Name | Max Accurary Obtained<br>Using the Streamlit App |
