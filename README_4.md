@@ -54,7 +54,10 @@ What are the key metrics which contributes the most towards predicting a shopper
 What variables are most important to explain Revenued sessions?
 
 What is the profile of the 'Right Customer' based on the metrics and variables included in the dataset?
-- We concluded that the "Right Customer" is based off of being a returing customer with low bounce and exit rates. This customer also ends up buying products in high seasons that includ the months of November and May. it is important to note that this customer spent more time on the webpage and we would know this by the variable Product Related Duration. 
+- We concluded that the "Right Customer" is based off of being a returing customer with low bounce and exit rates. This customer also ends up buying products in high seasons that includ the months of November and May and where the result of Revenue was "TRUE" because it means the visitor made a purchase. it is important to note that this customer spent more time on the webpage and we would know this by the variable Product Related Duration. 
+
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/92067596/179364455-58e9f411-67c6-4afa-91d0-e395d78b04df.png">
+
 
 Are the conversion rates of new visitors high when compared to those of returning customers?
 - In the conversion rate it is the percentage of users who take the desrired action. In this example, the new visitors are compared to returning visitors who buy something on the website. 
