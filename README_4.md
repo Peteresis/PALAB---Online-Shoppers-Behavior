@@ -27,6 +27,8 @@
 </table>
 
 # Selected topic
+# :one: What are the key metrics which contributes the most towards predicting a shopper's behavior?
+
 
 
 # Database Schema
