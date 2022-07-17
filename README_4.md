@@ -27,14 +27,13 @@
 </table>
 
 # Selected topic
-x`
+
 # :one: What are the key metrics which contributes the most towards predicting a shopper's behavior?
 
 Seeing these feature importances, we want to simplify our model to only use features that may heavily contribute to our classification. Using our feature importance chart, we will take the top 5 most impactful features: PageValues, ExitRates, ProductRelated_Duration, BounceRates, ProductRelated. In addition, after creating the simplififed model, we want to measure the effectiveness of our model by using cross validation.
 
 <p align="center">
- <img src="![Attributes](https://user-images.githubusercontent.com/98929742/179428811-20ae02ea-0f60-4248-987c-97be32b8014a.PNG)
-" width="50%" height="50%">
+ <img src="![Attributes](https://user-images.githubusercontent.com/98929742/179428811-20ae02ea-0f60-4248-987c-97be32b8014a.PNG)" width="50%" height="50%">
 </p>
 
 
