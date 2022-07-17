@@ -32,7 +32,8 @@ x`
 
 Seeing these feature importances, we want to simplify our model to only use features that may heavily contribute to our classification. Using our feature importance chart, we will take the top 5 most impactful features: PageValues, ExitRates, ProductRelated_Duration, BounceRates, ProductRelated. In addition, after creating the simplififed model, we want to measure the effectiveness of our model by using cross validation.
 
-![Attributes](https://user-images.githubusercontent.com/98929742/179428673-214c778c-8943-4421-b974-27d2c8a19a88.PNG)
+<img src= "![Attributes](https://user-images.githubusercontent.com/98929742/179428673-214c778c-8943-4421-b974-27d2c8a19a88.PNG)"width="50%" height="50%">
+</p>
 
 
 # Database Schema
