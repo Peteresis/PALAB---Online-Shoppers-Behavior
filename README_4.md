@@ -47,7 +47,7 @@ The most important attribute obtained from the Machine Learning results are the 
 
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/98929742/179434657-b1a86274-b0ac-473d-b1b7-f061c96bf1c8.png" width="25%" height="25%">
+ <img src="https://user-images.githubusercontent.com/98929742/179434657-b1a86274-b0ac-473d-b1b7-f061c96bf1c8.png" width="100%" height="100%">
 </p>
 
 
