@@ -36,6 +36,20 @@ The results we obtained from the Machine Learning depictst that the the top 5 mo
  <img src="https://user-images.githubusercontent.com/98929742/179428811-20ae02ea-0f60-4248-987c-97be32b8014a.PNG" width="25%" height="25%">
 </p>
 
+# :two: What variables are most important
+
+The most important attribute obtained from the Machine Learning results are the following:
+
+- **Page Value** that is defined as the the average value for a page that a user visited before landing on the goal page or completing an Ecommerce transaction.
+- **ExitRates** that is defined the percentage that were the last in the session.
+- **ProductRelated_Duration** that is defined as the duration for which Client's Authorized Users are granted access to the Licensed Products.
+- **BounceRates** that is defined as the percentage of visitors to a particular website who navigate away from the site after viewing only one page.
+
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/98929742/179434657-b1a86274-b0ac-473d-b1b7-f061c96bf1c8.png" width="25%" height="25%">
+</p>
+
 
 
 
