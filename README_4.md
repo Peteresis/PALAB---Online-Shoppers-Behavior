@@ -30,7 +30,7 @@
 
 # :one: What are the key metrics
 
-The results we obtained from the Machine Learning depictst that the the top 5 most impactful features: PageValues, ExitRates, ProductRelated_Duration, BounceRates and BounceRates.
+The results we obtained from the Machine Learning depictst that the the top 5 most impactful features: PageValues, ExitRates, ProductRelated_Duration, and BounceRates.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/98929742/179428811-20ae02ea-0f60-4248-987c-97be32b8014a.PNG" width="25%" height="25%">
