@@ -182,6 +182,8 @@ The most important attribute obtained from the Machine Learning results are the 
  <img src="https://user-images.githubusercontent.com/98360572/179851873-bfd49e28-bdd7-4197-a4f7-3ec6a44da814.png" width="30%" height="30%">
 </p>
 
+## :six::four:
+## :six::five:
 ---
 # :seven: Conclusion
 
