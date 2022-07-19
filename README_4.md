@@ -123,7 +123,7 @@ It consists of several charts showing the relationships between the different va
  
 # :six: Results Obtained
 
-## :six::one: What are the key metrics
+## :six::one: What are the key metrics?
 
 According to the machine learning results we obtained, `PageValues`, `ExitRates`, `ProductRelated Duration`, `ProductRelated` and `BounceRates` are the top 5 attributes with the greatest influence.
 
@@ -131,11 +131,15 @@ According to the machine learning results we obtained, `PageValues`, `ExitRates`
  <img src="https://user-images.githubusercontent.com/98929742/179428811-20ae02ea-0f60-4248-987c-97be32b8014a.PNG" width="25%" height="25%">
 </p>
 
-# :two: What variables are most important
+## :six::two: What variables are most important?
 
 The most important attribute obtained from the Machine Learning results are the following:
 
-- **Page Value** that is defined as the the average value for a page that a user visited before landing on the goal page or completing an Ecommerce transaction.
+- **Page Value** This metric is designed to help answer the question –“How much is a web page worth?”.  The formula is:
+<p align="center">
+    ${Page Value} = {{Transaction Revenue + Total Goal Value} \over Unique Pageviews}$
+</p>
+
 - **ExitRates** that is defined the percentage that were the last in the session.
 - **ProductRelated_Duration** that is defined as the duration for which Client's Authorized Users are granted access to the Licensed Products.
 - **ProductRelated** that is defined as products whose demand is influenced by a price change of another related product.
@@ -146,11 +150,7 @@ The most important attribute obtained from the Machine Learning results are the 
  <img src="https://user-images.githubusercontent.com/98929742/179434657-b1a86274-b0ac-473d-b1b7-f061c96bf1c8.png" width="100%" height="100%">
 </p>
 
-
-
-
-
-# :four: Comparison of the Results of the Models
+## :six::three: Comparison of the Results of the Machine Learning Models
 
 | Model Name | Max Accurary Obtained<br>Using the Streamlit App |
 | -----------   | -----------  |
@@ -161,5 +161,27 @@ The most important attribute obtained from the Machine Learning results are the 
 | **Random Forest Classifier** | **0.8612784437134429** |
 | AdaBoost Classifier | 0.8487314689397873 |
 
- 
+<p align="left">
+ <img src="https://user-images.githubusercontent.com/98360572/179851963-067a10bb-1dc2-4289-8928-af6c8dca7c1a.png" width="50%" height="50%">
+</p>
+
+<p align="left">
+ <img src="https://user-images.githubusercontent.com/98360572/179851712-ec1013e3-7789-4533-ab13-a140b49fe274.png" width="50%" height="50%">
+</p>
+
+<p align="left">
+ <img src="https://user-images.githubusercontent.com/98360572/179851776-f06083cc-1edb-4121-8657-115f365a1597.png" width="50%" height="50%">
+</p>
+
+<p align="left">
+ <img src="https://user-images.githubusercontent.com/98360572/179851873-bfd49e28-bdd7-4197-a4f7-3ec6a44da814.png" width="30%" height="30%">
+</p>
+
+
+
+
+
+
+
+
  
