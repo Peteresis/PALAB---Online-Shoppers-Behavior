@@ -182,8 +182,9 @@ The most important attribute obtained from the Machine Learning results are the 
  <img src="https://user-images.githubusercontent.com/98360572/179851873-bfd49e28-bdd7-4197-a4f7-3ec6a44da814.png" width="30%" height="30%">
 </p>
 
-## :six::four:
-## :six::five:
+## :six::four: What is the profile of the 'Right Customer' based on the metrics and variables included in the dataset?
+
+## :six::five: Are the conversion rates of new visitors high when compared to those of returning customers?
 ---
 # :seven: Conclusion
 
