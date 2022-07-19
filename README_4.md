@@ -64,6 +64,28 @@ https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/main/Data_Cle
 * The SQL database was connected to the Python code in the repository using **SQLAlchemy**
 * The **database ERD** with the relationships was created in the [QuickDBD site](https://www.quickdatabasediagrams.com/) 
 
+Steps taken:
+
+### Making a connection to the server
+```
+engine = db.create_engine('postgresql://postgres:nodebt@127.0.0.1:5432/Online_Shoppers_Intention')
+connection = engine.connect()
+metadata = db.MetaData()
+customer_id = db.Table('online_shoppers', metadata, autoload=True, autoload_with=engine)
+```
+
+### Create a session link from Python to the database
+```
+# Create our session (link) from Python to the DB
+session = Session(engine)
+```
+### Make a connection to the SQL database
+```
+# Make a connection to the SQL database
+conn = engine.connect()
+```
+
+
 | Python Code for SQL Connection | Schema File |
 | ----------- | ----------- |
 | [Connecting Database to Jupyter Notebook.ipynb](https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/057e134b7e558681bcd1b291df172701dd4010e5/Connecting%20Database%20to%20Jupyter%20Notebook.ipynb) |[Database ERD.txt](https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/057e134b7e558681bcd1b291df172701dd4010e5/Database%20ERD.txt) |
