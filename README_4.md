@@ -71,19 +71,6 @@ https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/main/Data_Cle
  <img src="https://user-images.githubusercontent.com/98360572/179841575-2f5f1ed0-8cc3-4300-9ddf-5804c17d7931.png" width="50%" height="50%">
 </p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # :four: Machine Learning Models
 
 The data was analyzed using the same models learned during the Bootcamp:
@@ -99,10 +86,23 @@ Ensemble Models:
   * Balanced Random Forest Classifier
   * Easy Ensemble AdaBoost Classifier
 
+Two Jupyter notebooks were used to run the machine learning models, and a Streamlit application was also developed to enable live online interaction with the models.
 
+| Jupyter Notebook Resampling Models | Jupyter Notebook Ensemble Models |
+| ----------- | ----------- |
+| [shoppers_ML_resampling.ipynb](https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/f71f4c5ea9a71a6b97ae291917efa895100f2932/shoppers_ML_resampling.ipynb) |[shoppers_ML_ensemble.ipynb](https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/f71f4c5ea9a71a6b97ae291917efa895100f2932/shoppers_ML_ensemble.ipynb) |
 
+| Link to the Streamlit App | Link to the Python Code File |
+| ----------- | ----------- |
+| [Streamlit App](https://peteresis-palab---online-shoppers-behavior-classifier-d9vdom.streamlitapp.com/) |[Python Code](https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/4b90fab3247f9a3d1a73165677df6d63292cd6c6/Classifier.py) |
 
-
+# :five: Tableau Dashboard
+ 
+ | Tableau Dashboard Link |
+| ----------- |
+| [Dashboard Link](https://public.tableau.com/app/profile/leonardo.domenico.bologni/viz/Online_Shoppers_Behavior/Online_Shoppers_Behavior?publish=yes) |
+ 
+ 
 
 
 # :one: What are the key metrics
@@ -131,11 +131,6 @@ The most important attribute obtained from the Machine Learning results are the 
 
 
 
-# Database Schema
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/98360572/179361359-385f14e0-5f53-4dfa-8b47-5b12a07aac1c.png" width="50%" height="50%">
-</p>
 
 # :four: Comparison of the Results of the Models
 
@@ -149,6 +144,4 @@ The most important attribute obtained from the Machine Learning results are the 
 | AdaBoost Classifier | 0.8487314689397873 |
 
  
- ### Tableau Dashboard
  
- [Dashboard Link](https://public.tableau.com/app/profile/leonardo.domenico.bologni/viz/Online_Shoppers_Behavior/Online_Shoppers_Behavior?publish=yes)
