@@ -26,11 +26,47 @@
 </tbody>
 </table>
 
-# Selected topic
+# :one: Selected topic: Predicting the behavior of online shoppers
+
+When researching the possible topics for this project we focused on datasets that ticked the following 3 boxes:
+
+✔️ The dataset is well-suited for machine learning analyses.
+
+✔️ Everyone in the group would find the subject exciting.
+
+✔️ The topic must be relevant to the business world, so that the project can be included in our professional portfolio.
+
+# :two: Data Exploration
+
+## :two::one: Dataset Source
+
+**UCI Machine Learning Repository: Online Shoppers Purchasing Intention Dataset Data Set**, https://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset#
+
+This dataset contains **12330** entries, which are divided into **10,422** records in which shoppers did not purchase and **1908** instances in which shoppers did purchase. Each entry is based on unique users over a one-year period to avoid any campaign-specific trends. **There are 10 numerical and 8 categorical attributes in total. The Revenue column is the target variable that can take two values TRUE or FALSE**.
+
+## :two::two: Data Exploration
+
+The dataset was explored using Python and we checked for the following:
+  1. Checking for **Null** values in data
+  2. Verify the type of data per column
+  3. Check that all the rows have the same number of elements
+  4. Decide if the data is balanced or imbalanced for Machine Learning
+
+The code used to verify the data can be found here:
+https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/main/Data_Cleaning_and_Preparation.ipynb
+
+
+
+
+
+
+
+
+
 
 # :one: What are the key metrics
 
-The results we obtained from the Machine Learning depictst that the the top 5 most impactful features: PageValues, ExitRates, ProductRelated_Duration, ProductRelated and BounceRates.
+According to the machine learning results we obtained, PageValues, ExitRates, ProductRelated Duration, ProductRelated, and BounceRates are the top 5 attributes with the greatest influence.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/98929742/179428811-20ae02ea-0f60-4248-987c-97be32b8014a.PNG" width="25%" height="25%">
