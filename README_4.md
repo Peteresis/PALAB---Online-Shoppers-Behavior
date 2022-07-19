@@ -107,41 +107,25 @@ It consists of several charts showing the relationships between the different va
   * Scatterplot - Bounce Rates vs Exit Rates
   * Bubble Graph - Page Value vs Month
 
-<p align="left">
- <img src="https://user-images.githubusercontent.com/98360572/179845113-c570fbd5-d11f-483c-b882-51cf26bf0d3e.png" width="25%" height="25%">
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/98360572/179845113-c570fbd5-d11f-483c-b882-51cf26bf0d3e.png" width="40%" height="40%">
+ <img src="https://user-images.githubusercontent.com/98360572/179845420-db5640e1-3d03-45d4-95bd-b35d127a0b83.png" width="40%" height="40%">
 </p>
 
-<p align="left">
- <img src="https://user-images.githubusercontent.com/98360572/179845420-db5640e1-3d03-45d4-95bd-b35d127a0b83.png" width="25%" height="25%">
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/98360572/179845750-c5656792-0d0a-4f30-aebd-f0277903aea8.png" width="40%" height="40%">
+ <img src="https://user-images.githubusercontent.com/98360572/179845980-7f89e98d-4879-4034-ae4e-36bfa8262314.png" width="40%" height="40%">
 </p>
-
-<p align="left">
- <img src="https://user-images.githubusercontent.com/98360572/179845750-c5656792-0d0a-4f30-aebd-f0277903aea8.png" width="25%" height="25%">
-</p>
-
-<p align="left">
- <img src="https://user-images.githubusercontent.com/98360572/179845980-7f89e98d-4879-4034-ae4e-36bfa8262314.png" width="25%" height="25%">
-</p>
-
-
-
-
-
-
-
-
-
 
 | Tableau Dashboard Link |
 | ----------- |
 | [Dashboard Link](https://public.tableau.com/app/profile/leonardo.domenico.bologni/viz/Online_Shoppers_Behavior/Online_Shoppers_Behavior?publish=yes) |
  
- 
+# :six: Results Obtained
 
+## :six::one: What are the key metrics
 
-# :one: What are the key metrics
-
-According to the machine learning results we obtained, PageValues, ExitRates, ProductRelated Duration, ProductRelated, and BounceRates are the top 5 attributes with the greatest influence.
+According to the machine learning results we obtained, `PageValues`, `ExitRates`, `ProductRelated Duration`, `ProductRelated` and `BounceRates` are the top 5 attributes with the greatest influence.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/98929742/179428811-20ae02ea-0f60-4248-987c-97be32b8014a.PNG" width="25%" height="25%">
