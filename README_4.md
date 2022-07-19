@@ -55,7 +55,13 @@ The dataset was explored using Python and we checked for the following:
 The code used to verify the data can be found here:
 https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/main/Data_Cleaning_and_Preparation.ipynb
 
-# :three: Machine Learning Models
+# :three: Database
+
+* The CSV file was loaded into an **SQL database**
+* The SQL database was connected to the Python code in the repository using **SQLAlchemy**
+* The **database ERD** with the relationships was created in the [QuickDBD site](https://www.quickdatabasediagrams.com/) 
+
+# :four: Machine Learning Models
 
 The data was analyzed using the same models learned during the Bootcamp:
 
