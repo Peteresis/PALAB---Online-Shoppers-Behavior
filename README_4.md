@@ -44,7 +44,7 @@ When researching the possible topics for this project we focused on datasets tha
 
 This dataset contains **12330** entries, which are divided into **10,422** records in which shoppers did not purchase and **1908** instances in which shoppers did purchase. Each entry is based on unique users over a one-year period to avoid any campaign-specific trends. **There are 10 numerical and 8 categorical attributes in total. The Revenue column is the target variable that can take two values TRUE or FALSE**.
 
-## :two::two: Data Exploration
+## :two::two: Data Wrangling
 
 The dataset was explored using Python and we checked for the following:
   1. Checking for **Null** values in data
@@ -55,8 +55,20 @@ The dataset was explored using Python and we checked for the following:
 The code used to verify the data can be found here:
 https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/main/Data_Cleaning_and_Preparation.ipynb
 
+# :three: Machine Learning Models
 
+The data was analyzed using the same models learned during the Bootcamp:
 
+Resampling Models:
+
+  * Naive Random Oversampling
+  * SMOTE Oversampling
+  * Logistic Regression
+  * SMOTEENN
+
+Ensemble Models:
+  * Balanced Random Forest Classifier
+  * Easy Ensemble AdaBoost Classifier
 
 
 
