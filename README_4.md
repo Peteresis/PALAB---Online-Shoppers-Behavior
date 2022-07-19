@@ -61,6 +61,29 @@ https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/main/Data_Cle
 * The SQL database was connected to the Python code in the repository using **SQLAlchemy**
 * The **database ERD** with the relationships was created in the [QuickDBD site](https://www.quickdatabasediagrams.com/) 
 
+| Python Code for SQL Connection | Schema File |
+| ----------- | ----------- |
+| [Connecting Database to Jupyter Notebook.ipynb](https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/057e134b7e558681bcd1b291df172701dd4010e5/Connecting%20Database%20to%20Jupyter%20Notebook.ipynb) |[Database ERD.txt](https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/057e134b7e558681bcd1b291df172701dd4010e5/Database%20ERD.txt) |
+
+### Database Schema
+
+<p align="left">
+ <img src="https://user-images.githubusercontent.com/98360572/179841575-2f5f1ed0-8cc3-4300-9ddf-5804c17d7931.png" width="50%" height="50%">
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # :four: Machine Learning Models
 
 The data was analyzed using the same models learned during the Bootcamp:
