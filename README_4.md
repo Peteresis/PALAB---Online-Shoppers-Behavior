@@ -97,8 +97,42 @@ Two Jupyter notebooks were used to run the machine learning models, and a Stream
 | [Streamlit App](https://peteresis-palab---online-shoppers-behavior-classifier-d9vdom.streamlitapp.com/) |[Python Code](https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/4b90fab3247f9a3d1a73165677df6d63292cd6c6/Classifier.py) |
 
 # :five: Tableau Dashboard
- 
- | Tableau Dashboard Link |
+
+The dashboard was done using Tableau.
+
+It consists of several charts showing the relationships between the different variables of the dataset, some of them are:
+
+  * Bar Chart - Month vs Revenue
+  * Barc Chart - Revenue vs (Informational Duration, Browser, Visitor Type, Page Value)
+  * Scatterplot - Bounce Rates vs Exit Rates
+  * Bubble Graph - Page Value vs Month
+
+<p align="left">
+ <img src="https://user-images.githubusercontent.com/98360572/179845113-c570fbd5-d11f-483c-b882-51cf26bf0d3e.png" width="25%" height="25%">
+</p>
+
+<p align="left">
+ <img src="https://user-images.githubusercontent.com/98360572/179845420-db5640e1-3d03-45d4-95bd-b35d127a0b83.png" width="25%" height="25%">
+</p>
+
+<p align="left">
+ <img src="https://user-images.githubusercontent.com/98360572/179845750-c5656792-0d0a-4f30-aebd-f0277903aea8.png" width="25%" height="25%">
+</p>
+
+<p align="left">
+ <img src="https://user-images.githubusercontent.com/98360572/179845980-7f89e98d-4879-4034-ae4e-36bfa8262314.png" width="25%" height="25%">
+</p>
+
+
+
+
+
+
+
+
+
+
+| Tableau Dashboard Link |
 | ----------- |
 | [Dashboard Link](https://public.tableau.com/app/profile/leonardo.domenico.bologni/viz/Online_Shoppers_Behavior/Online_Shoppers_Behavior?publish=yes) |
  
