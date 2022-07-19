@@ -185,8 +185,11 @@ The most important attribute obtained from the Machine Learning results are the 
 ---
 # :seven: Conclusion
 
+We can achieve approximately **86%** accuracy by using a **Random Forest Classifier**. The other Ensemble model, **AdaBoost Classifier**, is the second best model in this study, with an accuracy of **85%**.
 
+To improve the model's accuracy, it should be considered to remove variables that are only weakly related to revenue. These variables are likely just adding noise to the model and do not contribute to the prediction results.
 
+It may also be worthwhile to run this dataset through Neural Networks to see if the accuracy of the prediction obtained improves.
 
 
 
