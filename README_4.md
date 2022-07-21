@@ -218,7 +218,7 @@ The most important attribute obtained from the Machine Learning results are the 
 </p>
 
 | Purchaser | Returning Visitors | New Visitors |
-| ----------- |-----------| ----------- |
+| :-----------: | :-----------: | :-----------: |
 | True | 1470<br>11.92% | 422<br>3.42% |
 
 
