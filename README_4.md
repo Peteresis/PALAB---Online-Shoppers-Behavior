@@ -212,7 +212,10 @@ The most important attribute obtained from the Machine Learning results are the 
 ## :six::five: Are the conversion rates of new visitors high when compared to those of returning customers?
 - In the conversion rate it is the percentage of users who take the desrired action. In this example, the new visitors are compared to returning visitors who buy something on the website
  <img width="500" alt="image" src="https://user-images.githubusercontent.com/92067596/179363961-ab5cc804-1808-4d1d-9007-9cbfed0053ad.png">
-![image](https://user-images.githubusercontent.com/98360572/180107033-d3656496-af86-45ea-94cd-7bc7f32a121d.png)
+
+<p align="left">
+ <img src="https://user-images.githubusercontent.com/98360572/180107033-d3656496-af86-45ea-94cd-7bc7f32a121d.png" width="100%" height="100%">
+</p>
 
 ---
 # :seven: Conclusion
