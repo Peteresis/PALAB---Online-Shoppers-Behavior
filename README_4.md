@@ -43,7 +43,7 @@ When researching the possible topics for this project we focused on datasets tha
 
 **UCI Machine Learning Repository: Online Shoppers Purchasing Intention Dataset Data Set**, https://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset#
 
-This dataset contains **12330** entries, which are divided into **10,422** records in which shoppers did not purchase and **1908** instances in which shoppers did purchase. Each entry is based on unique users over a one-year period to avoid any campaign-specific trends. **There are 10 numerical and 8 categorical attributes in total. The Revenue column is the target variable that can take two values TRUE or FALSE**.
+This dataset contains **12,330** entries, which are divided into **10,422** records in which shoppers did not purchase and **1,908** instances in which shoppers did purchase. Each entry is based on unique users over a one-year period to avoid any campaign-specific trends. **There are 10 numerical and 8 categorical attributes in total. The Revenue column is the target variable that can take two values TRUE or FALSE**.
 
 ---
 ## :two::two: Data Wrangling
@@ -63,6 +63,28 @@ https://github.com/Peteresis/PALAB---Online-Shoppers-Behavior/blob/main/Data_Cle
 * The CSV file was loaded into an **SQL database**
 * The SQL database was connected to the Python code in the repository using **SQLAlchemy**
 * The **database ERD** with the relationships was created in the [QuickDBD site](https://www.quickdatabasediagrams.com/) 
+
+Steps taken:
+
+### Making a connection to the server
+```
+engine = db.create_engine('postgresql://postgres:nodebt@127.0.0.1:5432/Online_Shoppers_Intention')
+connection = engine.connect()
+metadata = db.MetaData()
+customer_id = db.Table('online_shoppers', metadata, autoload=True, autoload_with=engine)
+```
+
+### Create a session link from Python to the database
+```
+# Create our session (link) from Python to the DB
+session = Session(engine)
+```
+### Make a connection to the SQL database
+```
+# Make a connection to the SQL database
+conn = engine.connect()
+```
+
 
 | Python Code for SQL Connection | Schema File |
 | ----------- | ----------- |
@@ -108,7 +130,7 @@ The dashboard was done using Tableau.
 It consists of several charts showing the relationships between the different variables of the dataset, some of them are:
 
   * Bar Chart - Month vs Revenue
-  * Barc Chart - Revenue vs (Informational Duration, Browser, Visitor Type, Page Value)
+  * Bar Chart - Revenue vs (Informational Duration, Browser, Visitor Type, Page Value)
   * Scatterplot - Bounce Rates vs Exit Rates
   * Bubble Graph - Page Value vs Month
 
@@ -157,7 +179,7 @@ The most important attribute obtained from the Machine Learning results are the 
 
 ## :six::three: Comparison of the Results of the Machine Learning Models
 
-| Model Name | Max Accurary Obtained<br>Using the Streamlit App |
+| Model Name | Max Accuracy Obtained<br>Using the Streamlit App |
 | -----------   | -----------  |
 | Naive Random Oversampling | 0.8182538793439996 |
 | SMOTE Oversampling | 0.8086832465976176 |
@@ -182,14 +204,34 @@ The most important attribute obtained from the Machine Learning results are the 
  <img src="https://user-images.githubusercontent.com/98360572/179851873-bfd49e28-bdd7-4197-a4f7-3ec6a44da814.png" width="30%" height="30%">
 </p>
 
+## :six::four: What is the profile of the 'Right Customer' based on the metrics and variables included in the dataset?
+- We concluded that the "Right Customer" is based off of being a returing customer with low bounce and exit rates. This customer also ends up buying products in high seasons that include the months of November and May and where the result of Revenue was "TRUE" because it means the visitor made a purchase. it is important to note that this customer spent more time on the webpage and we would know this by the variables Product Related Duration and also the Page Value.
+
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/92067596/179364455-58e9f411-67c6-4afa-91d0-e395d78b04df.png">
+
+## :six::five: Are the conversion rates of new visitors high when compared to those of returning customers?
+- In the conversion rate it is the percentage of users who take the desrired action. In this example, the new visitors are compared to returning visitors who buy something on the website
+ <img width="500" alt="image" src="https://user-images.githubusercontent.com/92067596/179363961-ab5cc804-1808-4d1d-9007-9cbfed0053ad.png">
+
+<p align="left">
+ <img src="https://user-images.githubusercontent.com/98360572/180107033-d3656496-af86-45ea-94cd-7bc7f32a121d.png" width="100%" height="100%">
+</p>
+
+| Purchaser | Returning Visitors | New Visitors |
+| :-----------: | :-----------: | :-----------: |
+| True | 1470<br>11.92% | 422<br>3.42% |
+
+
 ---
 # :seven: Conclusion
 
-We can achieve approximately **86%** accuracy by using a **Random Forest Classifier**. The other Ensemble model, **AdaBoost Classifier**, is the second best model in this study, with an accuracy of **85%**.
+- We can achieve approximately **86%** accuracy by using a **Random Forest Classifier**. The other Ensemble model, **AdaBoost Classifier**, is the second best model in this study, with an accuracy of **85%**.
 
-To improve the model's accuracy, it should be considered to remove variables that are only weakly related to revenue. These variables are likely just adding noise to the model and do not contribute to the prediction results.
+- To improve the model's accuracy, it should be considered to remove variables that are only weakly related to revenue. These variables are likely just adding noise to the model and do not contribute to the prediction results.
 
-It may also be worthwhile to run this dataset through Neural Networks to see if the accuracy of the prediction obtained improves.
+- It may also be worthwhile to run this dataset through Neural Networks to see if the accuracy of the prediction obtained improves.
+
+- **We conclude that the right customer is the returning customer, it constitutes almost 12% of the sales**.
 
 
 
