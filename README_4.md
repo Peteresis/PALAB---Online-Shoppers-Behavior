@@ -43,7 +43,7 @@ When researching the possible topics for this project we focused on datasets tha
 
 **UCI Machine Learning Repository: Online Shoppers Purchasing Intention Dataset Data Set**, https://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset#
 
-This dataset contains **12330** entries, which are divided into **10,422** records in which shoppers did not purchase and **1908** instances in which shoppers did purchase. Each entry is based on unique users over a one-year period to avoid any campaign-specific trends. **There are 10 numerical and 8 categorical attributes in total. The Revenue column is the target variable that can take two values TRUE or FALSE**.
+This dataset contains **12,330** entries, which are divided into **10,422** records in which shoppers did not purchase and **1,908** instances in which shoppers did purchase. Each entry is based on unique users over a one-year period to avoid any campaign-specific trends. **There are 10 numerical and 8 categorical attributes in total. The Revenue column is the target variable that can take two values TRUE or FALSE**.
 
 ---
 ## :two::two: Data Wrangling
@@ -179,7 +179,7 @@ The most important attribute obtained from the Machine Learning results are the 
 
 ## :six::three: Comparison of the Results of the Machine Learning Models
 
-| Model Name | Max Accurary Obtained<br>Using the Streamlit App |
+| Model Name | Max Accuracy Obtained<br>Using the Streamlit App |
 | -----------   | -----------  |
 | Naive Random Oversampling | 0.8182538793439996 |
 | SMOTE Oversampling | 0.8086832465976176 |
@@ -205,7 +205,7 @@ The most important attribute obtained from the Machine Learning results are the 
 </p>
 
 ## :six::four: What is the profile of the 'Right Customer' based on the metrics and variables included in the dataset?
-- We concluded that the "Right Customer" is based off of being a returing customer with low bounce and exit rates. This customer also ends up buying products in high seasons that includ the months of November and May and where the result of Revenue was "TRUE" because it means the visitor made a purchase. it is important to note that this customer spent more time on the webpage and we would know this by the variables Product Related Duration and also the Page Value.
+- We concluded that the "Right Customer" is based off of being a returing customer with low bounce and exit rates. This customer also ends up buying products in high seasons that include the months of November and May and where the result of Revenue was "TRUE" because it means the visitor made a purchase. it is important to note that this customer spent more time on the webpage and we would know this by the variables Product Related Duration and also the Page Value.
 
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/92067596/179364455-58e9f411-67c6-4afa-91d0-e395d78b04df.png">
 
@@ -216,6 +216,10 @@ The most important attribute obtained from the Machine Learning results are the 
 <p align="left">
  <img src="https://user-images.githubusercontent.com/98360572/180107033-d3656496-af86-45ea-94cd-7bc7f32a121d.png" width="100%" height="100%">
 </p>
+| Purchaser | Returning Visitors | New Visitors |
+| -----------   | -----------  |
+| True | 1470<br>11.92% | 422<br>3.42% |
+
 
 ---
 # :seven: Conclusion
