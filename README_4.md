@@ -216,8 +216,9 @@ The most important attribute obtained from the Machine Learning results are the 
 <p align="left">
  <img src="https://user-images.githubusercontent.com/98360572/180107033-d3656496-af86-45ea-94cd-7bc7f32a121d.png" width="100%" height="100%">
 </p>
+
 | Purchaser | Returning Visitors | New Visitors |
-| -----------   |-----------| -----------  |
+| ----------- |-----------| ----------- |
 | True | 1470<br>11.92% | 422<br>3.42% |
 
 
