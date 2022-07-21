@@ -130,7 +130,7 @@ The dashboard was done using Tableau.
 It consists of several charts showing the relationships between the different variables of the dataset, some of them are:
 
   * Bar Chart - Month vs Revenue
-  * Barc Chart - Revenue vs (Informational Duration, Browser, Visitor Type, Page Value)
+  * Bar Chart - Revenue vs (Informational Duration, Browser, Visitor Type, Page Value)
   * Scatterplot - Bounce Rates vs Exit Rates
   * Bubble Graph - Page Value vs Month
 
