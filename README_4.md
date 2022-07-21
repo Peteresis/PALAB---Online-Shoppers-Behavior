@@ -231,7 +231,7 @@ The most important attribute obtained from the Machine Learning results are the 
 
 - It may also be worthwhile to run this dataset through Neural Networks to see if the accuracy of the prediction obtained improves.
 
-- We conclude that the right customer is the returning customer, it constitutes almost 12% of the sales.
+- **We conclude that the right customer is the returning customer, it constitutes almost 12% of the sales**.
 
 
 
